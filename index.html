@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      Siddharth Saraf
+
+	<head>
+		<title>
+			Siddharth Saraf
 		</title>
 		<style>
-			body{
+			body {
 				font-style: italic;
 				text-align: center;
 				font-family: monospace;
 			}
-			header>h1{
+
+			header>h1 {
 				text-transform: capitalize;
 			}
 		</style>
 	</head>
+
 	<body>
 		<header>
 			<h1>
 				<script>
-					var name = prompt('Please enter your name');
-					document.write("Hello " + name + "!");
+					var name = prompt('Please enter your name')
+					document.write("Hello " + name + "!")
+					var table = function (n = prompt('Please enter a number')) {
+						for (i = 1; i < 11; i++) {
+							document.getElementById('table').innerHTML += n + ' x ' + i + ' = ' + n * i + '<br>'
+						}
+					}
+					var factorial = function (n = prompt('Please enter a number')) {
+						for (i = 1, factorial = 1; i <= n; i++) {
+							factorial *= i
+						}
+						document.getElementById('factorial').innerHTML = n + '! = ' + factorial
+					}
 				</script>
 			</h1>
 		</header>
+		<input type="button" value="Table" onclick="table()">
+		<input type="button" value="Factorial" onclick="factorial()">
+		<div id="table"></div>
+		<div id="factorial"></div>
 	</body>
+
 </html>
