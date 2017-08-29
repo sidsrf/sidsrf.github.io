@@ -16,8 +16,6 @@
 			}
 		</style>
 		<script>
-					var name = prompt('Please enter your name')
-					document.getElementById('heading').innerHTML = "Hello " + name + "!";
 					var table = function (n = prompt('Please enter a number')) {
 						for (i = 1; i < 11; i++) {
 							document.getElementById('table').innerHTML += n + ' x ' + i + ' = ' + n * i + '<br>'
@@ -35,6 +33,10 @@
 	<body>
 		<header>
 			<h1 id="heading">
+				<script>
+					var name = prompt('Please enter your name')
+					document.write("Hello " + name + "!");
+				</script>
 			</h1>
 		</header>
 		<a href="http://siddharth48.000webhostapp.com">Please click here to visit my official webiste</a><br>
