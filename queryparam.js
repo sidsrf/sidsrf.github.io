@@ -9,7 +9,7 @@ xhr.addEventListener("readystatechange", function () {
     }
 });
 
-xhr.open("POST", "https://www.thunderclient.com/welcome");
+xhr.open("GET", "https://google.com");
 xhr.setRequestHeader("Accept", "*/*");
 
 xhr.send(data);
