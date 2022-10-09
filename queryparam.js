@@ -11,6 +11,5 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("POST", "https://www.thunderclient.com/welcome");
 xhr.setRequestHeader("Accept", "*/*");
-xhr.setRequestHeader("User-Agent", "Thunder Client (https://www.thunderclient.com)");
 
 xhr.send(data);
