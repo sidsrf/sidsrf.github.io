@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siddharth Saraf</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -10,33 +10,68 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="10">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
         <div class="container-fluid">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skill">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contac">Contact Me</a></li>
-            </ul>
+            <a class="navbar-brand" href="#">Siddharth's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" id="mainnav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <div id="home" class="container-fluid bg-primary">
         <h1>Home</h1>
+        <div class="card">
+            <div class="row">
+                <div class="col-4">
+                    <img class="card-img" src="img_avatar.png" alt="avatar">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center">
+                            <div class="card-title">Siddharth Saraf</div>
+                           <!--  2nd year IT UG student at BIT Mesra, Ranchi
+                            Member of IET | IEEE
+                            Backend enthusiast -->
+                        </div>
+                        <p class="card-text"></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="about" class="container-fluid bg-primary">
+    <div id="about" class="container-fluid bg-secondary">
         <h1>About</h1>
+        <!-- This is Siddharth Saraf from Raigarh, CG. I was introduced to coding (WebD actually) at very young age. I have
+        more interest in backend development than frontend.
+        For last few months, I have been doing Competitive Programming too. -->
     </div>
     <div id="skills" class="container-fluid bg-primary">
         <h1>Skills</h1>
+        <!-- python, JS, PHP, MySQL, NodeJS and more coming -->
     </div>
     <div id="projects" class="container-fluid bg-primary">
         <h1>Projects</h1>
+        <!-- This Portfolio
+        Hatch from scratch
+        and more coming -->
     </div>
     <div id="contact" class="container-fluid bg-primary">
         <h1>Contact Me</h1>
     </div>
-    <footer>This is footer</footer>
+    <div class="container-fluid">
+        <h1>This is footer</h1>
+    </div>
 
 </body>
 
