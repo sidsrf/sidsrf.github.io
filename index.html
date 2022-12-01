@@ -2,134 +2,239 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=https://sidsrf.github.io/index2.html">
-    <title>Siddharth Saraf</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>SIDSRF</title>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="10">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark opacity-75">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Siddharth's Portfolio</a>
+            <span class="navbar-brand" href="#">Siddharth's Portfolio</span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav" id="mainnav">
+                <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact me</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div id="home" class="container-fluid bg-primary">
-        <h1>Home</h1>
-        <div class="card">
-            <div class="row">
-                <div class="col-4">
-                    <img class="card-img" src="img_avatar.png" alt="avatar">
+    <!-- HOME -->
+    <div id="home">
+        <!-- <h1 class="text-center bg-primary rounded">HOME</h1> -->
+        <div class=" d-flex justify-content-center min-vh-100 align-items-center">
+            <!-- <div class="container bg-light rounded-pill row border"> -->
+            <div class="container row">
+                <div class="col-sm d-flex align-items-center justify-content-center">
+                    <img class="img-fluid rounded-circle" src="img_avatar.png" alt="Avatar">
                 </div>
-                <div class="col-8">
-                    <div class="card-body text-center">
-                        <!-- <div class="d-flex justify-content-center"> -->
-                        <div class="card-title display-1">Siddharth Saraf</div>
-                        <!-- </div> -->
-                        <!-- <div class="d-flex justify-content-center"> -->
-                        <div class="card-text">2nd year IT student at BIT Mesra, Ranchi</div>
-                        <!-- </div> -->
-                        <!-- <div class="d-flex justify-content-center"> -->
-                        <div class="card-text">Member of IET | IEEE</div>
-                        <!-- </div> -->
-                        <!-- <div class="d-flex justify-content-center"> -->
-                        <div class="card-text">Backend and CP enthusiast</div>
-                        <!-- </div> -->
-                        <!-- <div class="d-flex justify-content-center"> -->
-                        <!-- pills to different technical profiles -->
-                        <!-- </div> -->
+                <div class="col-sm text-center d-flex align-items-center">
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <span class="display-1">Siddharth Saraf</span>
+                        </div>
+                        <div class="col">
+                            <span>
+                                <br>2nd Year Btech IT student at BIT Mesra, Ranchi
+                                <br>Member of IET | IEEE
+                                <br>Backend and CP Enthusiast
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="about" class="container-fluid bg-secondary">
+    <!-- About -->
+    <!-- <h1 class="text-center">About</h1> -->
+    <div id="about" class="container text-center d-flex flex-column align-items-center min-vh-100">
+        <!-- <div class="d-flex flex-column align-items-center"> -->
         <h1>About</h1>
-        <div class="text-center">
-            This is Siddharth Saraf from Raigarh, CG. I was introduced to coding (WebD actually) at very young age. I
-            have
-            more interest in backend development than frontend.
-            For last few months, I have been doing Competitive Programming too.
-            Apart of tech enthusiast, I am a speedcuber too and I play guitar too.
-        </div>
-
-    </div>
-    <div id="skills" class="container-fluid bg-primary">
-        <h1>Skills</h1>
-        <div class="row g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="" class="card-img">
-                    <!-- <div class="card-text">HTML</div> -->
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" class="card-img">
-                    <!-- <div class="card-text">bootstrap</div> -->
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="" class="card-img">
-                    <!-- <div class="card-text">JS</div> -->
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="" class="card-img">
-                    <!-- <div class="card-text">PHP</div> -->
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="" class="card-img">
-                    <!-- <div class="card-text">Python</div> -->
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="" class="card-img">
-                    <!-- <div class="card-text">MySQL</div> -->
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="" class="card-img">
-                    <!-- <div class="card-text">NodeJS</div> -->
+        <span class="lead">
+            This is Siddharth Saraf from Raigarh, CG. I have done most of my schooling from OPJS Raigarh.
+            Though I was introduced to web development at young age, I have more interest in backend development
+            than frontend. Starting Competitive Programming just a few months ago. My non-technical skills include
+            speedcubing and guitar.
+        </span>
+        <div id="cp">
+            <div class="card">
+                <div class="card-header">Codeforces</div>
+                <img src="" alt="" id="cfPP">
+                <div class="card-body">
+                    <div class="card-title" id="cfname"></div>
+                    <div class="card-text">
+                        <dl>
+                            <dt>Current Rank</dt>
+                            <dd id="currentRank"></dd>
+                            <dt>Max Rank</dt>
+                            <dd id="maxRank"></dd>
+                        </dl>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- html, bootstrap,JS, PHP,python MySQL, NodeJS -->
-    </div>
-    <div id="projects" class="container-fluid bg-primary">
-        <h1>Projects</h1>
-        <!-- This Portfolio
-        Hatch from scratch
-        and more coming -->
-    </div>
-    <div id="contact" class="container-fluid bg-primary">
-        <h1>Contact Me</h1>
-    </div>
-    <div class="container-fluid">
-        <h1>This is footer</h1>
+        <!-- </div> -->
+        <!-- <div class="row mt-2"> -->
+        <!-- <div class="col-sm order-2 order-sm-1"> -->
+        <!-- </div> -->
+        <!-- <div class="col-sm order-1 order-sm-2 d-flex align-items-center justify-content-center">
+                <h1>Short Introduction</h1>
+            </div> -->
+        <!-- </div> -->
     </div>
 
+    <div id="skills" class="text-center">
+        <h1 class="bg-primary">SKILLS</h1>
+        <div class="container">
+            <div class="row d-flex justify-content-evenly p-3">
+                <div class="col-2 border d-flex align-items-center justify-content-center rounded-5">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                        alt="HTML5" class="img-fluid">
+                </div>
+                <div class="col-2 border d-flex align-items-center justify-content-center rounded-5">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/512px-CSS3_logo.svg.png"
+                        alt="CSS3" class="img-fluid">
+                </div>
+                <div class="col-2 border d-flex align-items-center justify-content-center rounded-5"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/7/73/Javascript-736400_960_720.png" alt="JS"
+                        class="img-fluid">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-evenly p-2">
+                <div class="col-2 border d-flex align-items-center justify-content-center"><img
+                        src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="Bootstrap"
+                        class="img-fluid">
+                </div>
+                <div class="col-2 border d-flex align-items-center justify-content-center"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="NodeJS"
+                        class="img-fluid">
+                </div>
+                <div class="col-2 border d-flex align-items-center justify-content-center"><img
+                        src="https://www.php.net/images/logos/new-php-logo.png" alt="PHP" class="img-fluid">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-evenly p-2">
+                <div class="col-2 border d-flex align-items-center justify-content-center"><img
+                        src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="" class="img-fluid"></div>
+                <div class="col-2 border d-flex align-items-center justify-content-center"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-2 border d-flex align-items-center justify-content-center"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png"
+                        alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="text-center">
+        <div class="container min-vh-50">
+            <h1>PROJECTS</h1>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="card-title">Portfolio</div>
+                            <div class="card-text">The one-and-only webpage which gives the readers a brief idea about
+                                me.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="card-title">Empowering Speechless</div>
+                            <div class="card-text">A glove prototype developed under Hatch-From-Scratch aiming to
+                                translate sign
+                                language and display output in the smartphone, thereby reducing communication gap
+                                between mute
+                                people and normal people.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <button class="btn">
+                <a href="http://facebook.com/sidsrf" target="_blank">
+                    <i class="bi bi-facebook p-2"></i>
+                </a>
+            </button>
+            <button class="btn">
+                <a href="https://www.instagram.com/sidsrf48/" target="_blank">
+                    <i class="bi bi-instagram p-2"></i>
+                </a>
+            </button>
+            <button class="btn">
+                <a href="https://twitter.com/sidsrf" target="_blank">
+                    <i class="bi bi-twitter p-2"></i>
+                </a>
+            </button>
+            <!-- <a href="https://www.facebook.com/sidsrf/" target="_blank" class="link"> -->
+            <!-- </a> -->
+            <!-- <div class="row">
+            </div> -->
+            <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt=""
+                class="img-fluid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt=""
+                class="img-fluid"> -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script>
+        const cfPPdiv = document.getElementById("cfPP");
+        const crdiv = document.getElementById("currentRank");
+        const mrdiv = document.getElementById("maxRank");
+        const cfnamediv = document.getElementById("cfname");
+
+        handle = 'sidsrf'
+
+        let headersList = {
+            "Accept": "*/*"
+            // "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+        }
+
+        const fetchCFProfile = async () => {
+            let response = await fetch("https://codeforces.com/api/user.info?handles=sidsrf", {
+                method: "GET",
+                headers: headersList
+            });
+            let data = await response.text();
+            console.log(data);
+            data = JSON.parse(data)['result'][0];
+            console.log(data);
+            cfnamediv.innerHTML = data['firstName'] + " " + data['lastName'];
+            cfPPdiv.src = data['avatar'];
+            crdiv.innerHTML = data['rating'];
+            mrdiv.innerHTML = data['maxRating'];
+        }
+
+        // let response = await fetch("http://codeforces.com/api/user.info?handles=sidsrf", {
+        //     method: "GET",
+        //     headers: headersList
+        // });
+
+        // let data = await response.text();
+        // console.log(data);
+
+        fetchCFProfile()
+
+    </script>
 </body>
 
 </html>
